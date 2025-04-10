@@ -5,7 +5,7 @@ import 'favorites_screen.dart';
 import 'recipe_detail_screen.dart';
 
 class HomeScreen extends StatefulWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+  const HomeScreen({super.key});
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -43,26 +43,24 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Future<void> toggleFavorite(Map<String, dynamic> recipe) async {
-  final id = recipe["id"].toString();
-  final isFavorite = favoriteIds.contains(id);
+    final id = recipe["id"].toString();
+    final isFavorite = favoriteIds.contains(id);
 
-  if (isFavorite) {
-    await http.delete(Uri.parse('http://10.0.2.2:3000/favorites/$id'));
-    setState(() => favoriteIds.remove(id));
-  } else {
-    final res = await http.get(Uri.parse('http://10.0.2.2:3000/favorites/$id'));
-
-    if (res.statusCode == 404) {
-      await http.post(
-        Uri.parse('http://10.0.2.2:3000/favorites'),
-        headers: {'Content-Type': 'application/json'},
-        body: jsonEncode(recipe),
-      );
-      setState(() => favoriteIds.add(id));
+    if (isFavorite) {
+      await http.delete(Uri.parse('http://10.0.2.2:3000/favorites/$id'));
+      setState(() => favoriteIds.remove(id));
+    } else {
+      final res = await http.get(Uri.parse('http://10.0.2.2:3000/favorites/$id'));
+      if (res.statusCode == 404) {
+        await http.post(
+          Uri.parse('http://10.0.2.2:3000/favorites'),
+          headers: {'Content-Type': 'application/json'},
+          body: jsonEncode(recipe),
+        );
+        setState(() => favoriteIds.add(id));
+      }
     }
   }
-}
-
 
   @override
   Widget build(BuildContext context) {
@@ -93,9 +91,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 Navigator.pop(context);
                 await Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => const FavoritesScreen()),
+                  MaterialPageRoute(builder: (_) => const FavoritesScreen()),
                 );
-                loadFavorites();
               },
             ),
           ],
@@ -135,10 +132,15 @@ class _HomeScreenState extends State<HomeScreen> {
               child: GridView.builder(
                 itemCount: filtered.length,
                 gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                  crossAxisCount: 2, crossAxisSpacing: 12, mainAxisSpacing: 12, childAspectRatio: 0.75),
+                  crossAxisCount: 2,
+                  crossAxisSpacing: 12,
+                  mainAxisSpacing: 12,
+                  childAspectRatio: 0.75,
+                ),
                 itemBuilder: (context, index) {
                   final recipe = filtered[index];
                   final isFavorite = favoriteIds.contains(recipe["id"].toString());
+
                   return GestureDetector(
                     onTap: () => Navigator.push(
                       context,
@@ -158,16 +160,25 @@ class _HomeScreenState extends State<HomeScreen> {
                           Align(
                             alignment: Alignment.topRight,
                             child: IconButton(
-                              icon: Icon(isFavorite ? Icons.favorite : Icons.favorite_border,
-                                  color: Colors.redAccent),
+                              icon: Icon(
+                                isFavorite ? Icons.favorite : Icons.favorite_border,
+                                color: Colors.redAccent,
+                              ),
                               onPressed: () => toggleFavorite(recipe),
                             ),
                           ),
                           Image.network(recipe["image"], height: 90),
                           const SizedBox(height: 8),
-                          Text(recipe["name"], textAlign: TextAlign.center, style: const TextStyle(fontWeight: FontWeight.bold)),
+                          Text(
+                            recipe["name"],
+                            textAlign: TextAlign.center,
+                            style: const TextStyle(fontWeight: FontWeight.bold),
+                          ),
                           const SizedBox(height: 4),
-                          Text(recipe["time"], textAlign: TextAlign.center),
+                          Text(
+                            recipe["time"],
+                            textAlign: TextAlign.center,
+                          ),
                         ],
                       ),
                     ),
