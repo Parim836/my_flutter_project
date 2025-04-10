@@ -1,0 +1,413 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "name": "Ramen",
+      "type": "Food",
+      "image": "https://cdn-icons-png.flaticon.com/512/8512/8512348.png",
+      "time": "120 min",
+      "rating": 4.9,
+      "ingredients": [
+        {
+          "name": "Noodles",
+          "image": "https://cdn-icons-png.flaticon.com/512/10953/10953193.png"
+        },
+        {
+          "name": "Egg",
+          "image": "https://cdn-icons-png.flaticon.com/512/837/837560.png"
+        },
+        {
+          "name": "Pork",
+          "image": "https://cdn-icons-png.flaticon.com/512/1703/1703038.png"
+        },
+        {
+          "name": "Oil",
+          "image": "https://cdn-icons-png.flaticon.com/512/4264/4264676.png"
+        },
+        {
+          "name": "Onion",
+          "image": "https://cdn-icons-png.flaticon.com/512/1330/1330443.png"
+        },
+        {
+          "name": "Garlic",
+          "image": "https://cdn-icons-png.flaticon.com/512/5346/5346654.png"
+        },
+        {
+          "name": "Miso",
+          "image": "https://cdn-icons-png.flaticon.com/512/3183/3183457.png"
+        },
+        {
+          "name": "Soy sauce",
+          "image": "https://cdn-icons-png.flaticon.com/512/1471/1471289.png"
+        },
+        {
+          "name": "Sugar",
+          "image": "https://cdn-icons-png.flaticon.com/512/5835/5835861.png"
+        },
+        {
+          "name": "Salt",
+          "image": "https://cdn-icons-png.flaticon.com/512/2102/2102350.png"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Pancakes",
+      "type": "Dessert",
+      "image": "https://cdn-icons-png.flaticon.com/512/9622/9622201.png",
+      "time": "50 min",
+      "rating": 4.6,
+      "ingredients": [
+        {
+          "name": "All-purpose flour",
+          "image": "https://cdn-icons-png.flaticon.com/512/5029/5029282.png"
+        },
+        {
+          "name": "Milk",
+          "image": "https://cdn-icons-png.flaticon.com/512/10634/10634036.png"
+        },
+        {
+          "name": "Egg",
+          "image": "https://cdn-icons-png.flaticon.com/512/2713/2713474.png"
+        },
+        {
+          "name": "Baking powder",
+          "image": "https://cdn-icons-png.flaticon.com/512/12386/12386129.png"
+        },
+        {
+          "name": "Butter",
+          "image": "https://cdn-icons-png.flaticon.com/512/4673/4673815.png"
+        },
+        {
+          "name": "Sugar",
+          "image": "https://cdn-icons-png.flaticon.com/512/5835/5835861.png"
+        },
+        {
+          "name": "Salt",
+          "image": "https://cdn-icons-png.flaticon.com/512/2102/2102350.png"
+        },
+        {
+          "name": "Maple Syrup",
+          "image": "https://cdn-icons-png.flaticon.com/512/3105/3105229.png"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Tteokbokki",
+      "type": "Food",
+      "image": "https://cdn-icons-png.flaticon.com/512/2276/2276934.png",
+      "time": "120 min",
+      "rating": 4.8,
+      "ingredients": [
+        {
+          "name": "Egg",
+          "image": "https://cdn-icons-png.flaticon.com/512/837/837560.png"
+        },
+        {
+          "name": "Soy sauce",
+          "image": "https://cdn-icons-png.flaticon.com/512/1471/1471289.png"
+        },
+        {
+          "name": "Sugar",
+          "image": "https://cdn-icons-png.flaticon.com/512/5835/5835861.png"
+        },
+        {
+          "name": "Garlic",
+          "image": "https://cdn-icons-png.flaticon.com/512/5346/5346654.png"
+        },
+        {
+          "name": "Rice cakes (Tteok)",
+          "image": "https://cdn-icons-png.flaticon.com/512/2010/2010581.png"
+        },
+        {
+          "name": "Gochujang",
+          "image": "https://cdn-icons-png.flaticon.com/512/12751/12751815.png"
+        },
+        {
+          "name": "Green onions",
+          "image": "https://cdn-icons-png.flaticon.com/512/6894/6894561.png"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Tom yum goong",
+      "type": "Food",
+      "image": "https://cdn-icons-png.flaticon.com/512/2095/2095671.png",
+      "time": "60 min",
+      "rating": 4.8,
+      "ingredients": [
+        {
+          "name": "Shrimp",
+          "image": "https://cdn-icons-png.flaticon.com/512/2970/2970030.png"
+        },
+        {
+          "name": "Lemongrass",
+          "image": "https://cdn-icons-png.flaticon.com/512/10979/10979500.png"
+        },
+        {
+          "name": "Kaffir lime leaves",
+          "image": "https://cdn-icons-png.flaticon.com/512/3802/3802670.png"
+        },
+        {
+          "name": "Mushroom",
+          "image": "https://cdn-icons-png.flaticon.com/512/8775/8775340.png"
+        },
+        {
+          "name": "Shallots",
+          "image": "https://cdn-icons-png.flaticon.com/512/3944/3944086.png"
+        },
+        {
+          "name": "Chili",
+          "image": "https://cdn-icons-png.flaticon.com/512/5371/5371600.png"
+        },
+        {
+          "name": "Lime",
+          "image": "https://cdn-icons-png.flaticon.com/512/4031/4031109.png"
+        },
+        {
+          "name": "Fish sauce",
+          "image": "https://cdn-icons-png.flaticon.com/512/8080/8080885.png"
+        },
+        {
+          "name": "Condensed milk",
+          "image": "https://cdn-icons-png.flaticon.com/512/12754/12754978.png"
+        },
+        {
+          "name": "Thai chili paste",
+          "image": "https://cdn-icons-png.flaticon.com/512/15204/15204721.png"
+        },
+        {
+          "name": "Sugar",
+          "image": "https://cdn-icons-png.flaticon.com/512/5835/5835861.png"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Mango Sticky Rice",
+      "type": "Dessert",
+      "image": "https://cdn-icons-png.flaticon.com/512/5121/5121480.png",
+      "time": "60 min",
+      "rating": 4.8,
+      "ingredients": [
+        {
+          "name": "Sticky rice",
+          "image": "https://cdn-icons-png.flaticon.com/512/1900/1900762.png"
+        },
+        {
+          "name": "Sugar",
+          "image": "https://cdn-icons-png.flaticon.com/512/5835/5835861.png"
+        },
+        {
+          "name": "Salt",
+          "image": "https://cdn-icons-png.flaticon.com/512/2102/2102350.png"
+        },
+        {
+          "name": "Coconut Milk",
+          "image": "https://cdn-icons-png.flaticon.com/512/5136/5136895.png"
+        },
+        {
+          "name": "Ripe Mango",
+          "image": "https://cdn-icons-png.flaticon.com/512/15804/15804940.png"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Panna Cotta",
+      "type": "Dessert",
+      "image": "https://cdn-icons-png.flaticon.com/512/4465/4465584.png",
+      "time": "20 min",
+      "rating": 4.8,
+      "ingredients": [
+        {
+          "name": "Milk",
+          "image": "https://cdn-icons-png.flaticon.com/512/10634/10634036.png"
+        },
+        {
+          "name": "Sugar",
+          "image": "https://cdn-icons-png.flaticon.com/512/5835/5835861.png"
+        },
+        {
+          "name": "Whipping Cream",
+          "image": "https://cdn-icons-png.flaticon.com/512/5816/5816136.png"
+        },
+        {
+          "name": "Gelatin",
+          "image": "https://cdn-icons-png.flaticon.com/512/5900/5900257.png"
+        },
+        {
+          "name": "Vanilla Extract",
+          "image": "https://cdn-icons-png.flaticon.com/512/12401/12401736.png"
+        },
+        {
+          "name": "fruit sauce",
+          "image": "https://cdn-icons-png.flaticon.com/512/628/628191.png"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Takoyaki",
+      "type": "Food",
+      "image": "https://cdn-icons-png.flaticon.com/512/3978/3978708.png",
+      "time": "20 min",
+      "rating": 4.8,
+      "ingredients": [
+        {
+          "name": "Egg",
+          "image": "https://cdn-icons-png.flaticon.com/512/2713/2713474.png"
+        },
+        {
+          "name": "Takoyaki Flour",
+          "image": "https://cdn-icons-png.flaticon.com/512/5029/5029282.png"
+        },
+        {
+          "name": "Octopus",
+          "image": "https://cdn-icons-png.flaticon.com/512/1864/1864491.png"
+        },
+        {
+          "name": "Takoyaki Sauce",
+          "image": "https://cdn-icons-png.flaticon.com/512/4711/4711606.png"
+        },
+        {
+          "name": "Japanese Mayonnaise",
+          "image": "https://cdn-icons-png.flaticon.com/512/3376/3376991.png"
+        },
+        {
+          "name": "Aonori",
+          "image": "https://cdn-icons-png.flaticon.com/512/9925/9925449.png"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Dumplings",
+      "type": "Food",
+      "image": "https://cdn-icons-png.flaticon.com/512/673/673530.png",
+      "time": "20 min",
+      "rating": 4.8,
+      "ingredients": [
+        {
+          "name": "Green onions",
+          "image": "https://cdn-icons-png.flaticon.com/512/6894/6894561.png"
+        },
+        {
+          "name": "Garlic",
+          "image": "https://cdn-icons-png.flaticon.com/512/5346/5346654.png"
+        },
+        {
+          "name": "Salt",
+          "image": "https://cdn-icons-png.flaticon.com/512/2102/2102350.png"
+        },
+        {
+          "name": "Soy sauce",
+          "image": "https://cdn-icons-png.flaticon.com/512/1471/1471289.png"
+        },
+        {
+          "name": "Dumpling wrappers",
+          "image": "https://cdn-icons-png.flaticon.com/512/4381/4381826.png"
+        },
+        {
+          "name": "Ground pork",
+          "image": "https://cdn-icons-png.flaticon.com/512/17010/17010149.png"
+        },
+        {
+          "name": "Chopped cabbage",
+          "image": "https://cdn-icons-png.flaticon.com/512/4056/4056895.png"
+        },
+        {
+          "name": "Ginger",
+          "image": "https://cdn-icons-png.flaticon.com/512/5281/5281043.png"
+        },
+        {
+          "name": "Sesame oil",
+          "image": "https://cdn-icons-png.flaticon.com/512/6709/6709756.png"
+        },
+        {
+          "name": "Pepper",
+          "image": "https://cdn-icons-png.flaticon.com/512/4212/4212858.png"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Japanese Cheesecake",
+      "type": "Dessert",
+      "image": "https://cdn-icons-png.flaticon.com/512/3296/3296630.png",
+      "time": "45 min",
+      "rating": 4.8,
+      "ingredients": [
+        {
+          "name": "Milk",
+          "image": "https://cdn-icons-png.flaticon.com/512/10634/10634036.png"
+        },
+        {
+          "name": "Sugar",
+          "image": "https://cdn-icons-png.flaticon.com/512/5835/5835861.png"
+        },
+        {
+          "name": "Egg",
+          "image": "https://cdn-icons-png.flaticon.com/512/2713/2713474.png"
+        },
+        {
+          "name": "Unsalted Butter",
+          "image": "https://cdn-icons-png.flaticon.com/512/4673/4673815.png"
+        },
+        {
+          "name": "Lime",
+          "image": "https://cdn-icons-png.flaticon.com/512/4031/4031109.png"
+        },
+        {
+          "name": "Vanilla Extract",
+          "image": "https://cdn-icons-png.flaticon.com/512/12401/12401736.png"
+        },
+        {
+          "name": "Cream Cheese",
+          "image": "https://cdn-icons-png.flaticon.com/512/16922/16922175.png"
+        },
+        {
+          "name": "Cake Flour",
+          "image": "https://cdn-icons-png.flaticon.com/512/4125/4125939.png"
+        },
+        {
+          "name": "Cornstarch",
+          "image": "https://cdn-icons-png.flaticon.com/512/12386/12386131.png"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Strawberry Smoothie",
+      "type": "Drink",
+      "image": "https://cdn-icons-png.flaticon.com/512/4080/4080552.png",
+      "time": "45 min",
+      "rating": 4.8,
+      "ingredients": [
+        {
+          "name": "Milk",
+          "image": "https://cdn-icons-png.flaticon.com/512/10634/10634036.png"
+        },
+        {
+          "name": "Sugar",
+          "image": "https://cdn-icons-png.flaticon.com/512/5835/5835861.png"
+        },
+        {
+          "name": "Strawberries",
+          "image": "https://cdn-icons-png.flaticon.com/512/8319/8319873.png"
+        },
+        {
+          "name": "Yogurt",
+          "image": "https://cdn-icons-png.flaticon.com/512/4105/4105244.png"
+        },
+        {
+          "name": "Ice cubes",
+          "image": "https://cdn-icons-png.flaticon.com/512/2458/2458102.png"
+        }
+      ]
+    }
+  ],
+  "favorites": []
+}
